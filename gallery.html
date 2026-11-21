@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Memorable photos and experiences from Winslie.">
+  <title>Gallery | My Personal Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html">My Personal Portfolio</a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="hobbies.html">Hobbies</a>
+        <a href="gallery.html" aria-current="page">Gallery</a>
+        <a href="favorites.html">Favorites</a>
+        <a href="dreams.html">Dreams</a>
+     <a href="quiz.html">Get to Know Me</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container page-enter" id="main-content">
+    <section class="card">
+      <p class="eyebrow">Moments worth remembering</p>
+      <h1 id="gallery-heading">My Gallery</h1>
+      <p>Some photos that remind me of happy days with my classmates and friends.</p>
+      <p class="small-note">Tap or click a photo to view it full screen.</p>
+
+      <div class="gallery-grid memories-grid">
+        <figure class="photo">
+          <a class="photo-link" href="#photo-1" aria-label="View full photo: School Memories — Grade 12 Ezekiel">
+            <img src="images/school-memories.jpg" alt="Group photo of Grade 12 Ezekiel students and Ma'am Jo" loading="lazy">
+          </a>
+          <figcaption>
+            <strong>School Memories — Grade 12 Ezekiel</strong>
+            <span>One of my favorite memories from senior high school was spending time with my classmates from Grade 12 – Ezekiel at The Refiners Christian School, together with our teacher, Ma'am Jo. 
+              During our school year, we shared many fun moments, laughed together, helped each other, and faced different challenges as a class. 
+              We made a lot of memories through our school activities and the simple moments we spent together. 
+              Even though we are now studying in different schools and following our own paths, I will always remember the fun times we had. 
+              I'm thankful that I got to be part of this class and meet people who made my senior high school life more enjoyable.</span>
+          </figcaption>
+        </figure>
+
+        <figure class="photo">
+          <a class="photo-link" href="#photo-2" aria-label="View full photo: Time with Friends — A Day After My Birthday">
+            <img src="images/time-with-friends.jpg" alt="Winslie and five friends taking a photo outdoors at SEDA Hotel" loading="lazy">
+          </a>
+          <figcaption>
+            <strong>Time with Friends — A Day After My Birthday</strong>
+            <span>The day after my birthday, my friends JR, Sam, Nathan, Zion, Zeus, and I took this picture at SEDA Hotel before we went home. 
+              It was a fun day, and I'm glad we got to spend time together. 
+              Whenever we're together, there's always something funny happening, especially during our rides. 
+              We would laugh at random things, make jokes, and talk about almost anything along the way. 
+              Even simple trips become fun because of the people I'm with. 
+              I'm thankful to have friends who make me laugh and enjoy every moment. 
+              This picture reminds me of the good times we shared and how much fun it is to be with them.</span>
+          </figcaption>
+        </figure>
+
+        <figure class="photo">
+          <a class="photo-link" href="#photo-3" aria-label="View full photo: Special Occasions — My Birthday at Enchanted Kingdom">
+            <img src="images/birthday-2025.jpg" alt="Winslie and friends standing together in front of a lit-up ride at Enchanted Kingdom" loading="lazy">
+          </a>
+          <figcaption>
+            <strong>Special Occasions — My Birthday at Enchanted Kingdom</strong>
+            <span>On October 10, 2025, I celebrated my birthday with my friends at Enchanted Kingdom in Santa Rosa, Laguna. 
+              It was one of the best birthdays I've had because I got to spend it with people who made the day more fun. 
+              We tried different rides, and some of them were really scary, but they were also exciting and awesome. 
+              We screamed, laughed, and enjoyed every moment, especially when we saw each other's reactions after the rides. 
+              Even though we got tired from walking around and trying different attractions, it was all worth it. 
+              I'm really happy that I got to celebrate my special day with my friends, and it's a birthday that I will always remember.</span>
+          </figcaption>
+        </figure>
+
+        <figure class="photo solidarity-photo">
+          <a class="photo-link" href="#photo-solidarity" aria-label="View full photo: Solidarity Night at RCS">
+            <img id="solidarity-image" src="images/solidarity-2.jpg" alt="Winslie speaking at the microphone during Solidarity Night" loading="lazy">
+          </a>
+          <figcaption>
+            <strong>Special Occasions — Solidarity Night at RCS</strong>
+            <p>Solidarity Night was the first big event of my term as SSG President of the High School Department at RCS. I organized it with my SSG buddies, with support from our SSG adviser and the Math-Sci, El-Com, Sports, Leisures, Choir, Dance Troupe, and Peer-to-Peer clubs.</p>
+            <p>Leading and organizing the event was a fun and meaningful experience. I enjoyed seeing everyone on the dance floor and celebrating the prize winners. I’m proud of what we accomplished together, and I’ll always remember our first big event.</p>
+            <div class="slideshow-controls" aria-label="Solidarity Night photo controls">
+              <button type="button" id="solidarity-previous" aria-label="Show previous Solidarity Night photo">Previous</button>
+              <span class="small-note" id="solidarity-status" aria-live="polite">Photo 1 of 4 — Speaking at Solidarity Night</span>
+              <button type="button" id="solidarity-next" aria-label="Show next Solidarity Night photo">Next</button>
+            </div>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  
+  <div class="lightbox" id="photo-1" role="region" aria-label="Full-screen image: School Memories — Grade 12 Ezekiel">
+    <a class="lightbox-backdrop" href="#gallery-heading" aria-label="Close full-screen photo"></a>
+    <a class="lightbox-close" href="#gallery-heading" aria-label="Close photo">Close &times;</a>
+    <img class="lightbox-image" src="images/school-memories.jpg" alt="Group photo of Grade 12 Ezekiel students and Ma'am Jo">
+    <p class="lightbox-caption">School Memories — Grade 12 Ezekiel</p>
+  </div>
+
+  <div class="lightbox" id="photo-2" role="region" aria-label="Full-screen image: Time with Friends — A Day After My Birthday">
+    <a class="lightbox-backdrop" href="#gallery-heading" aria-label="Close full-screen photo"></a>
+    <a class="lightbox-close" href="#gallery-heading" aria-label="Close photo">Close &times;</a>
+    <img class="lightbox-image" src="images/time-with-friends.jpg" alt="Winslie and five friends taking a photo outdoors at SEDA Hotel">
+    <p class="lightbox-caption">Time with Friends — A Day After My Birthday</p>
+  </div>
+
+  <div class="lightbox" id="photo-3" role="region" aria-label="Full-screen image: Special Occasions — My Birthday at Enchanted Kingdom">
+    <a class="lightbox-backdrop" href="#gallery-heading" aria-label="Close full-screen photo"></a>
+    <a class="lightbox-close" href="#gallery-heading" aria-label="Close photo">Close &times;</a>
+    <img class="lightbox-image" src="images/birthday-2025.jpg" alt="Winslie and friends standing together in front of a lit-up ride at Enchanted Kingdom">
+    <p class="lightbox-caption">Special Occasions — My Birthday at Enchanted Kingdom</p>
+  </div>
+
+  <div class="lightbox" id="photo-solidarity" role="region" aria-label="Full-screen image: Solidarity Night at RCS">
+    <a class="lightbox-backdrop" href="#gallery-heading" aria-label="Close full-screen photo"></a>
+    <a class="lightbox-close" href="#gallery-heading" aria-label="Close photo">Close &times;</a>
+    <img class="lightbox-image" id="solidarity-full-image" src="images/solidarity-2.jpg" alt="Winslie speaking at the microphone during Solidarity Night">
+    <p class="lightbox-caption" id="solidarity-full-caption">Speaking at Solidarity Night</p>
+  </div>
+
+  <script>
+    const solidarityPhotos = [
+      { src: "images/solidarity-2.jpg", alt: "Winslie speaking at the microphone during Solidarity Night", caption: "Speaking at Solidarity Night" },
+      { src: "images/solidarity-1.jpg", alt: "Winslie’s SSG group with the prize winner standing in the middle", caption: "The SSG team with the prize winner in the middle" },
+      { src: "images/solidarity-3.jpg", alt: "The decorated stage at RCS Solidarity Night", caption: "The Solidarity Night stage" },
+      { src: "images/solidarity-4.jpg", alt: "Selfie with Ma’am Loui, Ma’am Jam, and Winslie’s best friend Zion at Solidarity Night", caption: "Selfie with Ma’am Loui, Ma’am Jam, and my best friend Zion" }
+    ];
+    let solidarityIndex = 0;
+    const solidarityImage = document.getElementById("solidarity-image");
+    const solidarityFullImage = document.getElementById("solidarity-full-image");
+    const solidarityCaption = document.getElementById("solidarity-full-caption");
+    const solidarityStatus = document.getElementById("solidarity-status");
+    function showSolidarityPhoto(index) {
+      solidarityIndex = (index + solidarityPhotos.length) % solidarityPhotos.length;
+      const photo = solidarityPhotos[solidarityIndex];
+      solidarityImage.src = photo.src;
+      solidarityImage.alt = photo.alt;
+      solidarityFullImage.src = photo.src;
+      solidarityFullImage.alt = photo.alt;
+      solidarityCaption.textContent = photo.caption;
+      solidarityStatus.textContent = "Photo " + (solidarityIndex + 1) + " of " + solidarityPhotos.length + " — " + photo.caption;
+    }
+    document.getElementById("solidarity-previous").addEventListener("click", () => showSolidarityPhoto(solidarityIndex - 1));
+    document.getElementById("solidarity-next").addEventListener("click", () => showSolidarityPhoto(solidarityIndex + 1));
+  </script>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Winslie Ghlen A. Aragones</p>
+  </footer>
+</body>
+</html>
